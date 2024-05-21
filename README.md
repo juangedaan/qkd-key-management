@@ -1,8 +1,5 @@
 # Key management skeleton powered by AWS
 
-![image](https://github.com/juangedaan/qkd-key-management/assets/6960588/409a1fe8-dcf4-4f17-a209-1ad4a69c46f0)
-
-
 ## Description
 
 The O2Stack project is an AWS CDK (Cloud Development Kit) stack that sets up a VPC (Virtual Private Cloud) in the AWS Frankfurt region. This stack integrates with AWS Direct Connect to connect to an Equinix data center in Madrid. It leverages Amazon Braket for quantum computing and integrates with a quantum key distribution (QKD) network for secure communication. The setup includes multiple subnets and instances, such as a bastion host for SSH access, a service instance, and an SDN instance with additional network interfaces in the Quantum and Management subnets.This configuration provides a secure and scalable infrastructure for deploying applications within a controlled network environment.
